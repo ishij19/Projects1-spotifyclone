@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
+/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
 
 body{
@@ -92,7 +92,7 @@ nav ul li{
     display: flex;
     background-color: rgb(255, 255, 255);
     /* width: 80%; */
-    color: black;
+    /* color: black;
     margin: 12px 0;
     justify-content: s;
     align-items: center;
@@ -125,4 +125,4 @@ nav ul li{
     opacity: 0;
     transition: opacity 0.4s ease-in ;
     font-family: 'Varela Round', 'sans-serif';
-}
+} */ 
