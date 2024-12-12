@@ -1,16 +1,16 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&family=Varela+Round&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,100..900;1,100..900&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Varela+Round&display=swap');
 body{
     background-color: antiquewhite;
 }
+
 *{
     margin: 0;
     padding: 0;
 }
 
 nav{
-    font-family: 'Ubuntu', 'sans-serif';
+    font-family: 'Ubuntu', sans-serif;
 }
 
 nav ul{
@@ -23,16 +23,14 @@ nav ul{
 }
 
 nav ul li{
-    padding: 0 12px ;
-
+    padding: 0 12px;
 }
-
 .brand img{
     width: 44px;
-    padding: 0 8px ;
+    padding: 0 8px;
 }
 
-.brand{
+.brand {
     display: flex;
     align-items: center;
     font-weight: bolder;
@@ -43,43 +41,52 @@ nav ul li{
     min-height: 72vh;
     background-color: black;
     color: white;
-    font-family: 'Varela Round', 'sans-serif';
-    display: flex;
-    width: 70%;
-    margin: 23px auto;
-    border-radius: 10px ;
-    padding: 34px;
-    background-image: url(bg.jpg);
+   font-family: 'Varela Round', sans-serif;
+   display: flex;
+   margin: 23px auto;
+   width: 70%;
+   border-radius: 12px;
+   padding: 34px;
+   background-image: url('bg.jpg');
 }
-
-
 
 .bottom{
     position: sticky;
     bottom: 0;
     height: 130px;
-    background: #000;
+    background-color: black;
     color: white;
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-direction: column;
-    
-    
+    flex-direction: column; 
 }
 
-.icons{
-    margin-top: 14px;
+.icons {
+    margin-top: 14px; 
 }
 
-.icons i{
+.icons i {
     cursor: pointer;
-    
+    margin: 0 15px; /* Add some spacing between icons */
+    color: white; /* Change color to match the theme */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.icons i:hover {
+    color: #1db954; /* Change color on hover */
+}
+
+#shuffle {
+    color: white; /* Default color for the shuffle icon */
+}
+
+#shuffle.active {
+    color: #1db954; /* Color when shuffle is active */
 }
 
 #myProgressBar{
-    width: 80vw;
-    text-align: center;
+    width: 80vw; 
     cursor: pointer;
 }
 
@@ -90,11 +97,11 @@ nav ul li{
 .songItem{
     height: 50px;
     display: flex;
-    background-color: rgb(255, 255, 255);
-    /* width: 80%; */
-    /* color: black;
+    background-color: white;
+    
+    color: black;
     margin: 12px 0;
-    justify-content: s;
+    justify-content: space-between;
     align-items: center;
     border-radius: 34px;
 }
@@ -103,12 +110,10 @@ nav ul li{
     width: 43px;
     margin: 0 23px;
     border-radius: 34px;
-
 }
 
 .timestamp{
     margin: 0 23px;
-    
 }
 
 .timestamp i{
@@ -118,11 +123,16 @@ nav ul li{
 .songInfo{
     position: absolute;
     left: 10vw;
-    margin-top: 30px;
+    font-family: 'Varela Round', sans-serif;
 }
 
 .songInfo img{
     opacity: 0;
-    transition: opacity 0.4s ease-in ;
-    font-family: 'Varela Round', 'sans-serif';
-} */ 
+    transition: opacity 0.4s ease-in;
+}
+
+@media only screen and (max-width: 1100px) {
+    body {
+      background-color: red;
+    }
+  }
