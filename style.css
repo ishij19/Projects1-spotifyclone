@@ -53,7 +53,7 @@ nav ul li{
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 160px;
+    height: 200px;
     background-color: black;
     color: white;
     display: flex;
@@ -71,6 +71,7 @@ nav ul li{
     margin: 0 15px; /* Add some spacing between icons */
     color: white; /* Change color to match the theme */
     transition: color 0.3s; /* Smooth transition for hover effect */
+    
 }
 
 .icons i:hover {
@@ -89,7 +90,7 @@ nav ul li{
 #myProgressBar{
     width: 80vw; 
     cursor: pointer;
-    margin-top: 10px;
+    margin-top: 0px;
 }
 
 .songItemContainer{
