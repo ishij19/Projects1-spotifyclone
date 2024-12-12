@@ -127,7 +127,7 @@ let isShuffle = false; // Shuffle state
 let playedSongs = []; // Array to keep track of played songs
 
 let songs = [
-    {songName: "Old Bollywood Mashup Khudgharz", filePath: "spotifyClone/1.mp3", coverPath: "spotifyClone/1.jpg"},
+    {songName: "Bollywood Mashup Khudgharz", filePath: "spotifyClone/1.mp3", coverPath: "spotifyClone/1.jpg"},
     {songName: "Kailash on Coke Studio", filePath: "spotifyClone/2.mp3", coverPath: "spotifyClone/2.jpg"},
     {songName: "Wedding Mashup", filePath: "spotifyClone/3.mp3", coverPath: "spotifyClone/3.jpg"},
     {songName: "Patakha Guddi Highway", filePath: "spotifyClone/4.mp3", coverPath: "spotifyClone/4.jpg"},

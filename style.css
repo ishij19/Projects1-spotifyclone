@@ -138,6 +138,7 @@ nav ul li{
 @media only screen and (max-width: 1100px) {
     .songInfo{
         position:static;
+        align-items: center;
     }
     body {
       background-color: red;
