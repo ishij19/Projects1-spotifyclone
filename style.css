@@ -62,11 +62,27 @@ nav ul li{
     flex-direction: column; 
 }
 
-.icons{
+.icons {
     margin-top: 14px; 
 }
-.icons i{
+
+.icons i {
     cursor: pointer;
+    margin: 0 15px; /* Add some spacing between icons */
+    color: white; /* Change color to match the theme */
+    transition: color 0.3s; /* Smooth transition for hover effect */
+}
+
+.icons i:hover {
+    color: #1db954; /* Change color on hover */
+}
+
+#shuffle {
+    color: white; /* Default color for the shuffle icon */
+}
+
+#shuffle.active {
+    color: #1db954; /* Color when shuffle is active */
 }
 
 #myProgressBar{
