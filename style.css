@@ -53,7 +53,7 @@ nav ul li{
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 145px;
+    height: 160px;
     background-color: black;
     color: white;
     display: flex;
@@ -89,7 +89,7 @@ nav ul li{
 #myProgressBar{
     width: 80vw; 
     cursor: pointer;
-    margin-top: 15px;
+    margin-top: 10px;
 }
 
 .songItemContainer{
@@ -124,7 +124,7 @@ nav ul li{
 
 .songInfo{
     position: absolute;
-    margin-bottom: 25px;
+    margin-bottom: 30px;
     left: 37vw;
     font-family: 'Varela Round', sans-serif;
 }
