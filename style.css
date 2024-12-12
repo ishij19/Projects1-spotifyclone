@@ -53,7 +53,7 @@ nav ul li{
 .bottom{
     position: sticky;
     bottom: 0;
-    height: 130px;
+    height: 145px;
     background-color: black;
     color: white;
     display: flex;
@@ -63,7 +63,7 @@ nav ul li{
 }
 
 .icons {
-    margin-top: 14px; 
+    margin-top: 50px; 
 }
 
 .icons i {
@@ -79,6 +79,7 @@ nav ul li{
 
 #shuffle {
     color: white; /* Default color for the shuffle icon */
+    
 }
 
 #shuffle.active {
@@ -88,6 +89,7 @@ nav ul li{
 #myProgressBar{
     width: 80vw; 
     cursor: pointer;
+    margin-top: 15px;
 }
 
 .songItemContainer{
@@ -122,7 +124,8 @@ nav ul li{
 
 .songInfo{
     position: absolute;
-    left: 10vw;
+    margin-bottom: 25px;
+    left: 37vw;
     font-family: 'Varela Round', sans-serif;
 }
 
