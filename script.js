@@ -181,18 +181,24 @@ const makeAllPlays = () => {
 
 // Play a specific song
 Array.from(document.getElementsByClassName('songItemPlay')).forEach((element) => {
-    element.addEventListener('click', (e) => { 
+    element.addEventListener('click', (e) => {
         makeAllPlays();
         songIndex = parseInt(e.target.id);
         e.target.classList.remove('fa-play-circle');
         e.target.classList.add('fa-pause-circle');
-        audioElement.src = `spotifyClone/${songIndex + 1}.mp3`;
+        
+        // Set the audio source and play the selected song
+        audioElement.src = songs[songIndex].filePath; // Corrected this line
         masterSongName.innerText = songs[songIndex].songName;
         audioElement.currentTime = 0;
+        
+        // Play the song and update the UI
         audioElement.play();
         gif.style.opacity = 1;
+
+        // Update master play button state
         masterPlay.classList.remove('fa-play-circle');
-        masterPlay.classList.add('fa -pause-circle');
+        masterPlay.classList.add('fa-pause-circle');
     });
 });
 
